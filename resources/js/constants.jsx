@@ -28,3 +28,15 @@ export const TASK_PRIORITY_TEXT_MAP = {
   medium: "Medium",
   high: "High",
 };
+
+export const USER_STATUS_CLASS_MAP = {
+  active: "text-green-500",
+  inactive: "text-gray-500",
+  banned: "text-red-500",
+};
+
+export const USER_STATUS_TEXT_MAP = {
+  active: "Active",
+  inactive: "Inactive",
+  banned: "Banned",
+};
